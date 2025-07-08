@@ -1,0 +1,40 @@
+.current {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.details {
+  margin-left: 1rem;
+  text-align: left;
+
+  p {
+    margin: 0.2rem 0;
+  }
+}
+
+.temperature {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.forecastDay {
+  background: #e0fbfc;
+  border-radius: 6px;
+  padding: 0.8rem;
+  margin: 0.4rem;
+  width: 120px;
+  text-align: center;
+
+  h4 {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+}
